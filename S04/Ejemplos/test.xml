@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tienda [
+    <!ELEMENT tienda (producto+)>
+    <!ELEMENT producto (#PCDATA)>
+]>
+
+
+<tienda>
+ 
+    <producto>
+        ddfas
+    </producto>
+
+    <producto>
+        holi    
+    </producto>
+
+</tienda>

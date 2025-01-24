@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Electron Main",
+            "program": "${file}",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/${relativeFileDirname}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Ejecutar nodejs",
+            "program": "${file}",
+            "request": "launch",
+            "type": "node",
+            //-- Arrancar desde el directorio donde esta el ejemplo
+            "cwd": "${workspaceFolder}/${relativeFileDirname}"
+        }
+    ]
+}

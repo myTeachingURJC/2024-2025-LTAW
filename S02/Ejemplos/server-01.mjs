@@ -1,5 +1,8 @@
-//-- Forma clasica de importar modulos
-const http = require('http');
+//-- Forma moderna de importar modulos
+import http from 'node:http'
+
+//-- Se puede abreviar de esta forma
+//import { createServer } from 'node:http';
 
 //-- Crear el servidor
 const server = http.createServer();

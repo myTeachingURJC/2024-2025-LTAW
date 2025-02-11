@@ -4,7 +4,7 @@
 const N = 10; 
 
 //-- Bucle para imprimir N mensajes
-for (i = 0; i < N; i++) {
+for (let i = 0; i < N; i++) {
     console.log("Mensaje " + i);
 }
-
+console.log(i)

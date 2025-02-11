@@ -26,7 +26,7 @@ if ("test" in objeto1) {
 
 //-- Recorrer todas las propiedades
 console.log("");
-for (prop in objeto1) {
+for (let prop in objeto1) {
     console.log(`Propiedad: ${prop} --> Valor: ${objeto1[prop]}`);
 }
 

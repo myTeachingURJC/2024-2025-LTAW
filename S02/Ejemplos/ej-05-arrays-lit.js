@@ -7,7 +7,7 @@ const a = [1,3,5,7];
 console.log("Elemento 2: " + a[2]);
 
 //-- Recorrer todos los elementos
-for (i in a) {
+for (let i in a) {
     console.log(`a[${i}] = ${a[i]}`);
 }
 

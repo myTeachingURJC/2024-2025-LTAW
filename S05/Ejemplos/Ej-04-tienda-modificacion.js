@@ -8,7 +8,7 @@ const FICHERO_JSON = "Ej-03-tienda-json-fich.json"
 const FICHERO_JSON_OUT = "Ej-04-tienda-modificacion.json"
 
 //-- Leer el fichero JSON
-const  tienda_json = fs.readFileSync(FICHERO_JSON);
+const  tienda_json = fs.readFileSync(FICHERO_JSON, 'utf8');
 
 //-- Crear la estructura tienda a partir del contenido del fichero
 const tienda = JSON.parse(tienda_json);

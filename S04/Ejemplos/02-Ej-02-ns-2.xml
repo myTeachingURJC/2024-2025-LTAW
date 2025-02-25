@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Utilizacion de un espacio de nombres
+     sin definir prefijos
+ -->
+
+<tienda xmlns="http://obijuan.github.io/Tienda-1">
+
+
+    <!-- Dentro de tienda no hace falta declarar ningún prefijo
+         Se sobreentiende que esas etiquetas son las definidas
+         en el espacio de nombre indentificado por la URI
+    -->
+    <producto>
+        Un producto
+    </producto>
+
+</tienda>

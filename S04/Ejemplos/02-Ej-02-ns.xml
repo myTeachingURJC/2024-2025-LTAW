@@ -4,8 +4,8 @@
      para dos etiquetas producto que tienen
     estructuras diferentes -->
 
-<tienda xmlns:t1="a"
-        xmlns:t2="a">
+<tienda xmlns:t1="http://obijuan.github.io/Tienda-1"
+        xmlns:t2="http://w3c.definitions/Store/es">
 
     <t1:producto>
         Un producto

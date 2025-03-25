@@ -17,6 +17,15 @@
             "type": "node",
             //-- Arrancar desde el directorio donde esta el ejemplo
             "cwd": "${workspaceFolder}/${relativeFileDirname}"
+        },
+        {
+            "name": "Nodejs (terminal)",
+            "program": "${file}",
+            "request": "launch",
+            "type": "node",
+            //-- Arrancar desde el directorio donde esta el ejemplo
+            "cwd": "${workspaceFolder}/${relativeFileDirname}",
+            "console": "integratedTerminal",
         }
     ]
 }

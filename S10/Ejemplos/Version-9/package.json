@@ -4,9 +4,9 @@
     "version": "0.1.0",
     "main": "main.js",
     "scripts": {
-        "start": "electron ."
+        "start": "electron . --no-sandbox"
     },
     "dependencies": {
-        "electron": "^30.0.1"
+        "electron": "^35.1.2"
     }
 }
